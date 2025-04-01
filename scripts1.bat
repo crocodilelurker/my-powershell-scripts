@@ -1,0 +1,3 @@
+@echo off
+REM Infinite loop: Batch → PowerShell → CMD → Batch → ...
+powershell -Command "cmd /c \"%~f0\""
